@@ -3,7 +3,7 @@ jeet-gulp
 
 A template gulp project for [Jeet](http://jeet.gs/).
 
-# GettingStarted
+## GettingStarted
 
 ```
 $ git clone https://github.com/muraken720/jeet-gulp.git
@@ -13,7 +13,7 @@ $ gulp
 
 Open your browser 'http://localhost:8080' with [LiveReload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei).
 
-# FileStructure
+## FileStructure
 
 ```
 $ tree src public
@@ -28,7 +28,7 @@ $ tree src public
 
 Let's edit src/styl/app.styl !
 
-# gulpfile.coffee
+## gulpfile.coffee
 
 ```
 gulp = require 'gulp'
@@ -61,5 +61,5 @@ gulp.task 'watch', ->
 gulp.task 'default', ['stylus', 'connect', 'watch']
 ```
 
-# LICENSE
+## LICENSE
 MIT

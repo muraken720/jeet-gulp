@@ -1,36 +1,3 @@
-jeet-gulp
-=========
-
-A template gulp project for [Jeet](http://jeet.gs/).
-
-# GettingStarted
-
-```
-$ git clone https://github.com/muraken720/jeet-gulp.git
-$ npm install
-$ gulp
-```
-
-Open your browser 'http://localhost:8080' with [LiveReload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei).
-
-# FileStructure
-
-```
-$ tree src public
-  src
-  └── styl
-      └── app.styl
-  public
-  ├── css
-  │   └── app.css
-  └── index.html
-```
-
-Let's edit src/styl/app.styl !
-
-# gulpfile.coffee
-
-```
 gulp = require 'gulp'
 stylus = require 'gulp-stylus'
 jeet = require 'jeet'
@@ -59,7 +26,4 @@ gulp.task 'watch', ->
   gulp.watch ['public/**/*.html'], ['html']
 
 gulp.task 'default', ['stylus', 'connect', 'watch']
-```
 
-# LICENSE
-MIT

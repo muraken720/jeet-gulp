@@ -11,7 +11,7 @@
     "gulp": "^3.8.0",
     "gulp-connect": "^2.0.5",
     "gulp-stylus": "^1.0.2",
-    "jeet": "^5.2.10"
+    "jeet": "6.0.0"
   },
   "devDependencies": {},
   "homepage": "https://github.com/muraken720/jeet-gulp",

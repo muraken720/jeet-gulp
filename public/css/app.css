@@ -23,11 +23,8 @@ section:after {
 section aside {
   *zoom: 1;
   float: left;
-  display: inline;
   clear: none;
   text-align: inherit;
-  padding-left: 0;
-  padding-right: 0;
   width: 31.3333333333333%;
   margin-left: 0%;
   margin-right: 3%;
@@ -46,11 +43,8 @@ section aside:last-child {
 section article {
   *zoom: 1;
   float: left;
-  display: inline;
   clear: none;
   text-align: inherit;
-  padding-left: 0;
-  padding-right: 0;
   width: 65.6666666666667%;
   margin-left: 0%;
   margin-right: 3%;
